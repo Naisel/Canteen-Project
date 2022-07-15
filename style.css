@@ -178,7 +178,7 @@ main {
   align-items: center;
   gap: 0.8rem;
 }
-#login-google {
+#googleBtn {
   cursor: pointer;
 }
 .login-input {
