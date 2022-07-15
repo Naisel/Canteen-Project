@@ -34,10 +34,8 @@ ul {
   padding: 0;
 }
 button {
-  padding: 1.6rem 4rem;
-  background-color: var(--primary);
-  border-radius: 4rem;
   border: none;
+  cursor: pointer;
 }
 
 /* Styling */
@@ -181,6 +179,12 @@ main {
 #googleBtn {
   cursor: pointer;
 }
+.loginbtn {
+  font-family: Archivo, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  background-color: white;
+}
 .login-input {
   display: flex;
   flex-direction: column;
@@ -209,6 +213,10 @@ main {
   font-family: Archivo, sans-serif;
   color: var(--white);
   font-weight: 700;
+  padding: 1.6rem 4rem;
+  background-color: var(--primary);
+  border-radius: 4rem;
+  border: none;
 }
 .checkbox-remember {
   display: flex;
