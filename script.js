@@ -20,6 +20,7 @@ const provider = new GoogleAuthProvider(app);
 const auth = getAuth(app);
 const googleBtn = document.getElementById("googleBtn");
 function checkButton() {
+  console.log("ss");
   signInWithPopup(auth, provider)
     .then((result) => {
       // This gives you a Google Access Token. You can use it to access the Google API.
